@@ -9,9 +9,6 @@ const visitorRoutes = require("./routes/visitorRoutes");
 const alertRoutes = require("./routes/alertRoutes");
 const uploadRoutes = require("./routes/uploadRoutes");
 
-// Debug ke liye — keys print karo
-console.log("ImageKit Public Key:", process.env.IMAGEKIT_PUBLIC_KEY ?.trim());
-
 // dotenv.config();
 connectDB();
 
